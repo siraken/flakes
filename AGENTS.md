@@ -28,7 +28,7 @@ To add a new template:
 nix flake show
 
 # Initialize a project with a template (e.g., node)
-nix flake init -t github:siraken/flake-templates#node
+nix flake init -t github:siraken/flakes#node
 
 # Evaluate and check the flake
 nix flake check

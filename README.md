@@ -1,11 +1,11 @@
-# flake-templates
+# flakes
 
 A collection of Nix flake templates. Quickly set up development environments with `nix flake init`.
 
 ## Usage
 
 ```bash
-nix flake init -t github:siraken/flake-templates#<template-name>
+nix flake init -t github:siraken/flakes#<template-name>
 ```
 
 ## Templates
