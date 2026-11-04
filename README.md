@@ -12,6 +12,7 @@ nix flake init -t github:siraken/flakes#<template-name>
 
 | Name | Description |
 | ---- | ----------- |
+| `default` | Minimal development environment (empty package list) |
 | `ada` | Ada (GNAT) + gprbuild + Alire development environment |
 | `c` | C (GCC) + GNU Make + clang-tools development environment |
 | `cpp` | C++ (GCC) + CMake + clang-tools development environment |
@@ -33,6 +34,8 @@ nix flake init -t github:siraken/flakes#<template-name>
 | `elixir` | Elixir + Erlang/OTP development environment |
 | `clojure` | Clojure + Leiningen development environment |
 | `typst` | Typst + tinymist development environment |
+| `zig` | Zig + zls development environment |
+| `dapps` | Node.js (v24) + pnpm + Foundry development environment for dapps |
 | `nixos` | NixOS configuration with home-manager and nix-index-database |
 
 ## Adding a Template
